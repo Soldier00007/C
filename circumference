@@ -1,9 +1,0 @@
-#include<stdio.h>
-#define PI 3.14159
-#define R 5
-int main()
-{
- printf("area=%f\n",PI*R*R);
- prinyf("circumference=%f\n",2*PI*R);
- return 0;
-}
