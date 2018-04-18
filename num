@@ -37,6 +37,7 @@ int main()
 }
 
 自然数相关的
+1~100自然数之和
 #include<stdio.h>
 int main()
 {
@@ -46,3 +47,21 @@ int main()
  printf("%d"\n);
  return 0;
 }
+
+寻找质数
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    for(i=2;j<=100;i++)
+   {
+     for(j=2;j<=(i/j);j++)
+        if(!(i%j))break;
+         if(j>(i/j))
+        printf("%d是质数\n",i);
+    }
+    return 0;
+}
+
+
+
