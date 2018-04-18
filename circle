@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+  int a=10;
+  do
+  {
+       printf("a的值是：%d\n",a);
+       a=a+1;
+  }
+  while(a<20);
+
+       return 0;
+  }
+
+
+
+a的值是：10
+a的值是：11
+a的值是：12
+a的值是：13
+a的值是：14
+a的值是：15
+a的值是：16
+a的值是：17
+a的值是：18
+a的值是：19
+
+Process returned 0 (0x0)   execution time : 0.406 s
+Press any key to continue.
