@@ -74,7 +74,9 @@ int main()
   c=i;
   else
   c=j;
-  printf("%d",c);
+  printf("i=%d\n",i);
+  printf("j=%d\n",j);
+  printf("c=%d",c);
 }
 
 
