@@ -94,3 +94,18 @@ int main()
  printf("float        %d\n",sizeof(float);
  return 0;
 }
+
+判断是否是闰年
+#include<stdio.h>
+int main()
+{
+  int i;
+  scanf("%d",&i);
+ if(((i%4==0)&&(i%100！=0)||(i%400=0)))
+  printf("i=%d是闰年"，i);
+ else
+  printf("i=%d不是闰年"，i);
+  return 0;
+}
+
+字母大小写转换
