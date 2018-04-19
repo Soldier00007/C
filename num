@@ -64,4 +64,17 @@ int main()
 }
 
 
-
+每种数据类型所占内存空间的大小
+#include<stdio.h>
+int main()
+{
+ printf("Date type    Number of bytes\n");
+ printf("----------  --------------- \n");
+ printf("char         %d\n",sizeof(char));
+ printf("int          %d\n",sizeof(char));
+ printf("short int    %d\n",sizeof(short int));
+ printf("long int     %d\n",sizeof(long int));
+ printf("double       %d\n",sizeof(double))；
+ printf("float        %d\n",sizeof(float);
+ return 0;
+}
