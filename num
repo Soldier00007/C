@@ -143,3 +143,53 @@ int main()
 }
 
 字母大小写转换
+大转小
+#include<stdio.h>
+int main()
+{ 
+ char ch;
+ ch=getchar();
+ ch=ch+32;
+ putchar(ch);
+ putchar('\n');
+ return 0;
+}
+
+小转大
+#include<stdio.h>
+int main()
+{
+ char ch;
+ ch=getchar();
+ ch=ch-32;
+ putchar(ch);
+ putchar('\n');
+ return 0;
+}
+
+ Switch 语句
+ #include<stdio.h>
+ int main()
+ {
+  int score;
+  char grade;
+  printf("input an int to score:\n");
+  scanf("%d",&score);
+  if(score>100||score<0)
+  {
+   printf("输入的值不合法\n");
+   return 0;
+  }
+  switch (score/10)
+  { 
+   case 10;
+   case 9;grade='A'；break;
+   case 8;grade='B'；break;
+   case 7;grade='C'；break;
+   case 6;grade='D；break;
+   default:grade='E'；
+   }
+   printf("成绩d对应的等级为%\n",score,grade);
+   return 0;
+ }
+ 
