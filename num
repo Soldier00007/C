@@ -192,4 +192,18 @@ int main()
    printf("成绩d对应的等级为%\n",score,grade);
    return 0;
  }
- 
+  200以内能被7\3整除的数的和
+  #include<stdio.h>
+  int main()
+  {
+   int i, sum=0;
+   for(i=1;i<=200;i++)
+   {
+    if（i%7==0||i%3==0）
+    {
+     sum+=i
+    }
+   }
+   printf("%d\n",sum);
+   return 0;
+  }
