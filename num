@@ -12,6 +12,32 @@ void main()
  }
 }
 
+C显示当前时间
+#include <stdio.h>
+#include <time.h>
+void main ()
+{
+time_t rawtime;
+struct tm * timeinfo;
+time ( &rawtime );
+timeinfo = localtime ( &rawtime );
+printf ( "\007The current date/time is: %s", asctime (timeinfo) );
+exit(0);
+}
+
+
+#include <stdio.h>
+#include <time.h>
+void main ()
+{
+time_t rawtime;
+struct tm * timeinfo;
+time ( &rawtime );
+timeinfo = localtime ( &rawtime );
+printf ( "\007The current date/time is: %s", asctime (timeinfo) );
+exit(0);
+}
+
 
 do while 循环
 #include<stdio.h>
@@ -189,6 +215,22 @@ int main()
  putchar('\n');
  return 0;
 }
+
+
+作用域
+#include<stdio.h>
+int a=45,b=56,c=67;
+int main()
+{
+    int a,b, c;
+    a=23;
+    b=45;
+    c=56;
+    printf("a=%d,b=%d\n,c=%d\n",a,b,c);
+    return 0;
+
+}
+
 
  Switch 语句
  #include<stdio.h>
